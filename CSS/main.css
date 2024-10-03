@@ -1,0 +1,84 @@
+h2 {
+    color:rosybrown;
+    background-color: mediumslateblue;
+    text-align: center;
+    font-size: 5vw;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+ol {
+    background-color: aqua;
+}
+li {
+    background-color: cornsilk;
+}
+#navbar{
+    background-color: springgreen;
+    border-style:solid;
+    border-color: black;
+    border-collapse:collapse;
+    font-size: 20px;
+    font-family:"Segoe UI", Tahoma, sans serif;
+}   
+body {
+    background-image: url(../img/backdrop.jpg);
+    background-repeat:repeat;
+    background-size: cover;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+
+}
+header {
+    background-color: lavenderblush;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    border: 3px solid black;
+}
+.navbar {
+    background-color:#75868F;
+    border: solid #575BAD;
+    font-size: 20px;
+    position: sticky;
+    top: 0px;
+}
+.navbar th {
+    border: solid #FED637;
+    padding: 5px;
+}
+footer {
+    background-color:bisque;
+    color:springgreen;
+    font-size: 12px;
+    border: 3px solid blueviolet;
+    padding-left: 5px;
+}
+.profile {
+    background-color: #797596;
+    text-align:center;
+}
+.even-row {
+    background-color: #44CFCB;
+}
+a:hover {
+    color:#ff0040
+}
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ff9999;
+    color: #fbd1bd;
+    padding: 5px
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    box-shadow: 5px 5px 10px black;
+}
+.active {
+    background-color: lightcoral
+}
+a {
+    color:springgreen;
+    text-decoration: none;
+}
